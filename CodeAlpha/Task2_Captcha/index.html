@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body onload="generateCaptcha();">
+    <center>
+        <h1>Captcha Validation</h1>
+
+    </center>
+    <div class="container">
+
+      <form id="form">
+        
+   
+        <label>Name:</label>
+        <input type="text"  placeholder="Enter your name"><br><br>
+        <label>Email:</label>
+        <input type="email"  placeholder="Enter your email"><br><br>
+        <label>Phone:</label>
+        <input type="text"  placeholder="Enter your phone number"><br><br>
+         <div class="table">
+            <table>
+                <tr id="tr">
+                    <td>
+                        <label>Enter the Captcha:</label>
+                        <input type="text" readonly="readonly" id="mainCaptcha">
+                        <!-- <input type="button" id="refresh" value="Refresh" onclick="generateCaptcha();"> -->
+                        <button onclick="generateCaptcha()">Refresh</button>
+
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <input type="text" id="textInput">
+                        
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <div class="capt">
+                        <input   type="button" id="Button1" value="Check" onclick="checkValidCaptcha();">
+                    </div>
+                        
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <span id="error" style="color: red;"></span>
+                    </td>
+                </tr>
+                
+
+                <tr>
+                    <td>
+                        <span id="success" style="color: green;"></span>
+                    </td>
+                </tr>
+            </table>
+       
+        </div>
+
+    </form>
+</div>
+
+     
+
+
+
+    
+
+
+
+
+
+
+    
+
+<script src="script.js"></script>
+    
+</body>
+</html>

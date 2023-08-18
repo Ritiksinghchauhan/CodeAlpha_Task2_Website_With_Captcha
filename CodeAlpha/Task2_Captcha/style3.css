@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    display: flex;
+    width:20%;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width:45%;
+    border:2px solid white;
+    border-radius: 50%;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top:0;
+    cursor: pointer;
+
+  
+}
+.nav-list{
+    /* display: flex; */
+    width: 50%;
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+  
+
+
+}
+.nav-list li{
+    list-style: none;
+    padding:20px;
+    
+
+    
+
+
+}
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+
+
+}
+.nav-list li a:hover{
+    color: grey;
+}
+.rightNav{
+    /* background-color: blue; */
+    width: 50%;
+    text-align: right;
+    padding:1vw;
+    
+}
+#search{
+    padding:4px;
+    font-size: 17px;
+    border: 2px solid grey;
+    border-radius: 9px;
+}
+.background{
+    background: rgba(0,0,0,0.7) url('re.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+
+}
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    padding: 254px;
+    max-width: 50%;
+    margin:auto
+  
+}
+.firstSection{
+    height: 100vh;
+}
+.firstHalf{
+    width: 80%;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+}
+.secondHalf{
+    width: 40%;
+
+}
+.secondHalf img{
+    padding:4px 0;
+    width: 70%;
+    height: 100px;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+
+}
+.btn{
+    background-color: chartreuse;
+    color: black;
+    width:100px;
+    height: 30px;
+    border-radius: 10px;
+}
+.btn:hover{
+    background-color: rgb(194, 249, 138);
+}
+.text-big{
+    font-size: 30px;
+    font-family:sans-serif;
+}
+.text-small{
+    font-size:23px;
+    margin-top: 2px;
+    
+}
+.bg{
+    background: rgb(0,0,0,0.3);
+}
+.IM{
+    display: flex;
+    justify-content: center;
+
+
+    
+    
+}
+.image2{
+    margin: 5px;
+    display: flex;
+    width: 320px;
+    height: 280px;
+    overflow: hidden;
+   
+   
+}
+
+/* #qw{
+    display: flex;
+    justify-content: center;
+    white-space: 2px;
+    
+} */
+.footer{
+
+    background-color: black;
+    color: aliceblue;
+    width: 100%;
+    height: 200px;
+}
+.footer:hover{
+    background-color: rgb(224, 254, 244);
+    color:blue;
+}
+.footer img{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
